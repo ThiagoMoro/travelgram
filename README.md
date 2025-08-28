@@ -1,12 +1,77 @@
-# React + Vite
+# 🌍 Travelgram
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Travelgram** is a **ReactJS** project designed to showcase a personal travel profile in a clean, modern, and responsive way.  
+The app displays user details, visited destinations, photo galleries, and a sleek design inspired by social media platforms.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Layout Preview
 
-## Expanding the ESLint configuration
+<img width="855" height="895" alt="image" src="https://github.com/user-attachments/assets/d5ef89c3-1ff1-4ea0-beaf-82d09dc6bbdf" />
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Technologies Used
+
+- **ReactJS** → Front-end library for building user interfaces  
+- **JavaScript (ES6+)** → Application logic  
+- **CSS3** → Styling and layout  
+- **Google Fonts (Poppins)** → Main typography  
+- **SVG Icons & Images** → Used for visual elements  
+
+---
+
+## 📂 Project Structure
+
+```bash
+travelgram/
+├── public/
+│   ├── assets/
+│   │   ├── icons/         # SVG icons used in the project
+│   │   ├── images/        # Gallery images
+│   │   ├── Logo.svg
+│   │   └── Profile pic.png
+│   └── vite.svg
+├── src/
+│   ├── components/
+│   │   ├── Header.jsx     # Header component
+│   │   ├── Header.jsx     # Header component
+│   │   ├── Navbar.jsx     # Navbar component
+│   │   ├── Navbar.css     # Navbar styles
+│   │   ├── Gallery.css    # Gallery styles
+│   │   ├── Gallery.jsx    # Gallery component
+│   │   ├── Footer.css     # Footer styles
+│   │   └── Footer.jsx     # Footer component
+│   ├── styles/
+│   │   └── index.css      # Global styles
+│   ├── App.jsx            # Main app component
+│   └── main.jsx           # React entry point
+├── .gitignore
+├── package.json
+├── package-lock.json
+├── index.html
+├── README.md
+├── eslint.config.js
+└── vite.config.js
+```
+
+
+⚙️ How to Run the Project
+
+Follow the steps below to set up and run the project locally:
+
+1. Clone the repository
+git clone `git@github.com:ThiagoMoro/travelgram.git`
+
+2. Navigate into the project folder
+cd travelgram
+
+3. Install dependencies
+npm install
+
+4. Start the development server
+npm run dev
+
+
+The app will be available at:
+http://localhost:5173
