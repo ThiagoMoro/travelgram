@@ -1,0 +1,7 @@
+nav {
+  display: flex;
+  justify-content: space-between; /* Espaço entre os elementos */
+  align-items: center; /* Centraliza verticalmente */
+  line-height: 0;
+  padding-block: 20px; /* Espaço acima e abaixo */
+}
